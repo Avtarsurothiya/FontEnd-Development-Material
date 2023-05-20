@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centering divs</title>
+    <!-- Change the link of CSS file here -->
+    <link rel="stylesheet" href="Center_A_div.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0px; 
+        padding: 0px;
+      }
+/*       Bigger Box contains another box
+ */      #bigBox {
+  width: 400px;
+  height: 400px;
+  background-color: #f55353;
+}
+/*Smaller Box inside Bigger Box */
+#smallBox {
+  width: 100px;
+  height: 100px;
+  background-color: #feb139;
+}
+    </style>
+  </head>
+  <body>
+    <h1 style = "text-align:Center;"><u>Center a DIV</u> </h1>
+    <div id="bigBox">
+      <div id="smallBox"></div>
+    </div>
+  </body>
+</html>

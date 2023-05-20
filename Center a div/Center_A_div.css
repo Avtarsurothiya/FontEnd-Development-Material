@@ -1,0 +1,85 @@
+/* Method-1
+#bigBox {
+    position: relative;
+  }
+  #smallBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+/* 
+  Method 2
+  #bigBox {
+    position: relative;
+  }
+  #smallBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  } */
+/* 
+Method -3
+  #bigBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+/* 
+  Method -4
+  #bigBox {
+    display: flex;
+    justify-content: center;
+  }
+  #smallBox {
+    align-self: center;
+  } */
+/* 
+  Method -5
+  #bigBox {
+    display: grid;
+  }
+  #smallBox {
+    align-self: center;
+    justify-self: center;
+  } */
+/*   Method - 6
+  #bigBox {
+    display: flex;
+  }
+  #smallBox {
+    margin: auto;
+  } */
+/* 
+  Method -7
+  #bigBox {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  } */
+/* 
+  Method -8
+  #bigBox {
+    display: grid;
+    place-items: center;
+  } */
+/* 
+  Method -9
+  #bigBox {
+    display: grid;
+  }
+  #smallBox {
+    place-self: center;
+  } */
+
+ /* Method -10 */
+  #bigBox {
+    display: grid;
+  }
+  #smallBox {
+    margin: auto;
+  }
+  
