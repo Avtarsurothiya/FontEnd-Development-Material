@@ -1,0 +1,35 @@
+#container{
+	height: 60vh;
+	width:  60vw;
+	background-color: black;
+	display:  flex;
+	//flex-direction: column-reverse;
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+#div1{
+   
+    height: 150px;
+    width: 300px;
+    background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%);
+}
+
+
+#div2{
+    background-color: red;
+}
+
+
+#div3{
+    background-color: grey;
+  //order: 5;
+}
+
+#div4{
+    background-color: maroon;
+   //order: -1;
+}
