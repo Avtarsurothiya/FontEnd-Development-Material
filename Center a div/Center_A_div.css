@@ -66,20 +66,21 @@ Method -3
     display: grid;
     place-items: center;
   } */
-/* 
+
   Method -9
   #bigBox {
     display: grid;
   }
   #smallBox {
     place-self: center;
-  } */
+  } 
 
- /* Method -10 */
+ /* Method -10 
   #bigBox {
     display: grid;
   }
   #smallBox {
     margin: auto;
   }
+*/
   
